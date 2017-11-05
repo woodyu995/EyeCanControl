@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.eyecancontrol.EyeCanControl" 
+    android:background="#ffffff"
+    >
+
+    <TextView
+        android:id="@+id/bedTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bed"
+        android:textSize="40sp" 
+     />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000" 
+    />
+    
+    <ImageView
+        android:id="@+id/bedImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="40sp"
+        android:contentDescription="@string/app_name"
+    />
+    <!-- android:layout_margin="40sp" -->
+     <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:paddingBottom="@dimen/activity_vertical_margin"
+       android:paddingLeft="@dimen/activity_horizontal_margin"
+       android:paddingRight="@dimen/activity_horizontal_margin"
+       android:paddingTop="@dimen/activity_vertical_margin"
+       android:orientation="horizontal"
+       tools:context="com.example.eyecancontrol.EyeCanControl" 
+       android:background="#ffffff" >
+        
+    <Button 
+        	android:id="@+id/upBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bed_up"
+            
+    />
+    <Button
+        	android:id="@+id/Downbtn"
+           	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bed_down"
+            
+    />
+    
+   
+      
+    </LinearLayout>
+        
+       
+    </LinearLayout>
+      <!-- 
+    <SeekBar 
+        android:id="@+id/bedSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20sp"
+        android:max="2"/>
+
+ -->
+
+
